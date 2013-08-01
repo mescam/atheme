@@ -24,7 +24,7 @@ static char ts6sid[3 + 1] = "";
 ircd_t Unreal = {
         "UnrealIRCd 3.1 or later",      /* IRCd name */
         "$",                            /* TLD Prefix, used by Global. */
-        true,                           /* Whether or not we use IRCNet/TS6 UID */
+        false,                           /* Whether or not we use IRCNet/TS6 UID */
         false,                          /* Whether or not we use RCOMMAND */
         true,                           /* Whether or not we support channel owners. */
         true,                           /* Whether or not we support channel protection. */
